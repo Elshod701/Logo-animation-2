@@ -1,0 +1,222 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+}
+
+.container {
+  width: 1300px;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.logos {
+  padding: 0 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 1000px;
+  height: 60vh;
+  width: 1000px;
+  height: 700px;
+  margin-top: 100px;
+}
+
+.tg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  animation-name: tg;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  box-shadow: 0 0 50px rgb(44, 44, 227);
+}
+@keyframes tg {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(120px, 70px);
+  }
+}
+
+
+.insta {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s all ease-in-out;
+  border-radius: 50%;
+  box-shadow: 0 0 50px rgb(253, 0, 80);
+  width: 200px;
+  height: 200px;
+  animation-name: insta;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes insta {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(120px, -70px);
+  }
+}
+
+
+.whatsapp {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 0.5s all ease-in-out;
+  border-radius: 50%;
+  box-shadow: 0 0 50px rgb(38, 255, 0);
+  width: 200px;
+  height: 200px;
+  animation-name: whatsapp;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes whatsapp {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-120px, 70px);
+  }
+}
+
+
+.facebook {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: 0.5s all ease-in-out;
+  border-radius: 50%;
+  box-shadow: 0 0 50px rgb(0, 60, 255);
+  width: 200px;
+  height: 200px;
+  animation-name: facebook;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes facebook {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-120px, -70px);
+  }
+}
+
+
+.tovuqcha {
+  position: absolute;
+  bottom: 30%;
+  right: -300px;
+  transition: 0.5s all ease-in-out;
+  border-radius: 50%;
+  box-shadow: 0 0 50px rgb(255, 140, 0);
+  width: 200px;
+  height: 200px;
+  animation-name: tovuqcha;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes tovuqcha {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(-200px);
+  }
+}
+
+
+.premium {
+  position: absolute;
+  bottom: 30%;
+  left: -300px;
+  transition: 0.5s all ease-in-out;
+  border-radius: 50%;
+  box-shadow: 0 0 50px rgb(0, 60, 255);
+  width: 200px;
+  height: 200px;
+  animation-name: premium;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes premium {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(200px);
+  }
+}
+
+
+.bmw {
+  position: absolute;
+  top: -10%;
+  left: 40%;
+  transition: 0.5s all ease-in-out;
+  border-radius: 50%;
+  box-shadow: 0 0 50px rgb(0, 60, 255);
+  width: 200px;
+  height: 200px;
+  animation-name: bmw;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes bmw {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100px);
+  }
+}
+
+
+.mers {
+  position: absolute;
+  bottom: -10%;
+  left: 40%;
+  transition: 0.5s all ease-in-out;
+  border-radius: 50%;
+  box-shadow: 0 0 50px rgb(0, 60, 255);
+  width: 200px;
+  height: 200px;
+  animation-name: mers;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes mers {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100px);
+  }
+}
